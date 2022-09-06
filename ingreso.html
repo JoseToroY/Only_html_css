@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ingreso</title>
+</head>
+
+<body class="body-ingreso">
+
+    <header class="header-ingreso">
+        <!--navbar-->
+        <nav class="nav">
+            <div class="div-nav">
+
+                <a href="#"><img class="logo" src="img/carsTravels.png" alt=""></a>
+
+                <input type="checkbox" id="check">
+                <label class="bar_btn" for="check">
+                    <svg class="hamburguesa" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="#ffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </label>
+
+                <ul class="nav-menu">
+                    <li><a href="./index.html" class="link">inicio</a></li>
+                    <li><a href="./registro.html">registro</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--navbar-->
+
+    <div class="contenedor-ingreso">
+        <!--Formulario de ingreso-->
+        <div class="contenido-ingreso">
+
+            <form class="form-ingreso">
+                <label class="label-ingreso">Usuario</label>
+                <input class="input-ingreso" type="text" placeholder=" Ingrese usuario ">
+                <label class="label-ingreso">Contraseña</label>
+                <input class="input-ingreso" type="password" placeholder=" Ingrese contraseña ">
+                <button class="boton-ingreso">Ingresar</button>
+                <a class="olvido-clave" href="#">¿Olvidaste tu clave?</a>
+                <a class="registrar-usuario" href="/registro.html">Registrar usuario</a>
+
+            </form>
+
+            <img class="img-ingreso" src="img/carsIngreso.png" alt="combi">
+
+        </div>
+    </div>
+    <!--Formulario de ingreso-->
+</body>
+
+</html>

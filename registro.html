@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+
+<body class="body-registro">
+
+    <header class="header-registro">
+        <!--navbar-->
+        <nav class="nav">
+            <div class="div-nav">
+
+                <a href="#"><img class="logo" src="img/carsTravels.png" alt=""></a>
+
+                <input type="checkbox" id="check">
+                <label class="bar_btn" for="check">
+                    <svg class="hamburguesa" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="#ffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </label>
+
+                <ul class="nav-menu">
+                    <li><a href="./index.html" class="link">inicio</a></li>
+                    <li><a href="./Ingreso.html">ingreso</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--navbar-->
+
+    <div class="contenedor-registro">
+        <!--Formulario de registro-->
+        <div class="contenido-registro">
+
+            <form class="form-registro">
+                <label class="label-registro">Ingrese nombre y apellido</label>
+                <input class="input-registro" type="text" placeholder=" Ingrese nombre del usuario ">
+                <label class="label-registro">Ingrese seudónimo</label>
+                <input class="input-registro" type="text" placeholder=" Ingrese seudonimo ">
+                <label class="label-registro">Ingrese fecha de nacimiento</label>
+                <input class="input-registro" type="date">
+                <label class="label-registro">Ingrese una contraseña</label>
+                <input class="input-registro" type="password" placeholder=" Ingrese contraseña de 8 carácteres">
+                <button class="boton-registro">Registrar</button>
+
+            </form>
+
+        </div>
+        <!--Formulario de registro-->
+    </div>
+</body>
+
+</html>
