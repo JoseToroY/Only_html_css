@@ -62,7 +62,7 @@ html {
 .nav-menu {
     position: fixed;
     width: 100%;
-    top: 59px;
+    top: 60px;
     background-color: #000000b6;
     text-align: center;
     transition: all .5s;
